@@ -1,13 +1,10 @@
 ---
+import Menu from './Menu.astro';
 import Navigation from './Navigation.astro';
-
-const headerText = Astro.props;
 ---
-
 <header>
-    <nav>
-        <Navigation />
-    </nav>
-
+  <nav>
+    <Menu />
+    <Navigation />
+  </nav>
 </header>
-
